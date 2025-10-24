@@ -14,13 +14,16 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Download HDO Box" />
   <meta property="og:description" content="Grab the newest HDO Box build. Simple page, direct links." />
+  <meta property="og:image" content="https://yvental963.github.io/link301/assets/thumbnail.png" />
+  <meta property="og:url" content="https://yvental963.github.io/link301/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://yvental963.github.io/link301/assets/thumbnail.png" />
 
-  <!-- Favicon stored in repo -->
-  <link rel="icon" href="/assets/favicon.png" type="image/png" />
-  <!-- Optional multi-size icons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <!-- Favicon stored in repo (relative to <base>) -->
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
   <style>
     :root{
@@ -85,6 +88,8 @@
     "operatingSystem": "Android, Fire TV, Android TV",
     "applicationCategory": "VideoStreamingApplication",
     "description": "Landing page to download the latest HDO Box build.",
+    "image": "https://yvental963.github.io/link301/assets/thumbnail.png",
+    "url": "https://yvental963.github.io/link301/"
   }
   </script>
 </head>
@@ -92,7 +97,7 @@
   <div class="wrap">
     <!-- Header -->
     <header class="site-header">
-      <img class="logo" src="/assets/icon.png" alt="HDO Box logo">
+      <img class="logo" src="assets/icon.png" alt="HDO Box logo">
       <div class="brand">HDO Box</div>
     </header>
 
@@ -116,15 +121,14 @@
       </div>
 
       <figure class="thumb">
-        <img src="/assets/thumbnail.png" alt="HDO Box preview">
+        <img src="assets/thumbnail.png" alt="HDO Box preview">
       </figure>
     </section>
 
     <!-- Release notes / Highlights -->
     <section class="card">
       <h2>What’s new</h2>
-  <p>
-    The latest update focuses on improving stability, visual polish, and accessibility.
+      <p class="muted">The latest update focuses on improving stability, visual polish, and accessibility.
     Users will notice smoother scrolling, a refreshed color palette, and better
     compatibility with newer versions of Android TV and Fire OS. The design language
     now follows modern Material principles, making the experience more consistent and
@@ -136,13 +140,12 @@
     <li>Optional dark/light themes with automatic switching</li>
     <li>Bug fixes and codebase cleanup for faster startup</li>
   </ul>
-</section>
+    </section>
 
     <!-- Content area (empty placeholders) -->
     <section class="card">
-      <<h2>About HDO Box</h2>
-  <p>
-    HDO Box is a third-party video application concept often discussed in tech forums
+      <h2>About HDO Box</h2>
+      <p class="muted">HDO Box is a third-party video application concept often discussed in tech forums
     for its minimalist design and lightweight interface. This page does not distribute
     any build of the software; its purpose is to document design, features, and
     usability aspects for educational and UI demonstration purposes.
@@ -153,12 +156,12 @@
     illustrates how open-source projects hosted on GitHub can collaborate on interface
     improvements while respecting copyright law.
   </p>
-</section>
+    </section>
 
     <section class="card">
       <h2>Features</h2>
-  <div class="grid-2">
-    <div>
+      <div class="grid-2">
+        <div>
       <h3>Lightweight Interface</h3>
       <p>
         Designed to be fast and responsive even on entry-level Android TVs and
@@ -187,15 +190,14 @@
         requests.
       </p>
     </div>
-  </div>
-</section>
+    </section>
 
     <section class="card">
       <h2>Screenshots</h2>
       <div class="grid-3">
-        <figure class="shot"><img src="/assets/screen-1.png" alt="Screenshot 1"></figure>
-        <figure class="shot"><img src="/assets/screen-2.png" alt="Screenshot 2"></figure>
-        <figure class="shot"><img src="/assets/screen-3.png" alt="Screenshot 3"></figure>
+        <figure class="shot"><img src="assets/screen-1.png" alt="Screenshot 1"></figure>
+        <figure class="shot"><img src="assets/screen-2.png" alt="Screenshot 2"></figure>
+        <figure class="shot"><img src="assets/screen-3.png" alt="Screenshot 3"></figure>
       </div>
       <p class="muted" style="margin-top:10px"><!-- TODO: optional caption --></p>
     </section>
@@ -203,13 +205,13 @@
     <!-- Optional FAQ / Install guide placeholders -->
     <section class="card">
       <h2>How to Install</h2>
-  <p>
+      <p class="muted"><p>
     This page does not provide installation files. If you are learning how to package
     or deploy Android applications in general, follow the official Android Developer
     documentation to build and sign your own app safely.
   </p>
   <ol>
-    <li>Open Android Studio and import your project.</li>
+    <li>Open <a href="https://developer.android.com/studio" target="_blank" rel="noopener">Android Studio</a> and import your project.</li>
     <li>Use the <code>Build&nbsp;&gt;&nbsp;Generate Signed App Bundle/APK</code> menu to produce a verified package.</li>
     <li>Test on an emulator or authorised device using <code>adb install your-app.apk</code>.</li>
     <li>Distribute only through trusted stores or personal backups respecting copyright
@@ -220,7 +222,7 @@
     developers. Avoid downloading APKs from unverified sources to keep your devices
     secure.
   </p>
-</section>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
